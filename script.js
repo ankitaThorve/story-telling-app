@@ -33,3 +33,5 @@ function displayStory(genre) {
 }
 // displayStory("scary");
 scaryStoryBtn.addEventListener("click", () => displayStory("scary"));
+
+funnyStoryBtn.addEventListener("click", () => displayStory("funny"));
